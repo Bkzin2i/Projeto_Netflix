@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+    <header class="nav" id="navbar">
+        <img class="nav__logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Séries</a> 
+            <a href="#">Filmes</a>
+            <a href="#">Minha lista</a>
+        </nav>
+        <div style="margin-left:auto; display:flex; gap:1rem; align-items:center;">
+            <button class="banner__button" style="font-weight:600; font-size:0.8rem;">Entrar</button>
+        </div>
+    </header>
+
+    <section class="banner" style="background-image: url('https://images.unsplash.com/photo-1581905764498-8bdc30e74589?auto=format&fit=crop&w=1800&q=80');">
+        <div class="banner__contents">
+            <h1 class="banner__title">Assista aos melhores filmes e séries</h1>
+            <div>
+                <button class="banner__button">Assistir</button>
+                <button class="banner__button">+ Informações</button>
+            </div>
+            <p class="banner__description">Acesse centenas de títulos com o visual e a experiência clássica da Netflix. Navegue, descubra e aproveite com sua família.</p>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </section>
+
+    <main>
+        <section class="row">
+            <h2>Lançamentos</h2>
+            <div class="row__posters">
+                <img class="row__poster" src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?auto=format&fit=crop&w=500&q=60" alt="Filme" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=500&q=60" alt="Filme" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=500&q=60" alt="Filme" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1471295253337-3ceaaedca402?auto=format&fit=crop&w=500&q=60" alt="Filme" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1517600300242-7e010c3dbb56?auto=format&fit=crop&w=500&q=60" alt="Filme" />
+            </div>
+        </section>
+
+        <section class="row">
+            <h2>Os mais populares</h2>
+            <div class="row__posters">
+                <img class="row__poster" src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=500&q=60" alt="Série" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1542204165-5bf80551b3a0?auto=format&fit=crop&w=500&q=60" alt="Série" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1542659632-2d9e3e7e48b9?auto=format&fit=crop&w=500&q=60" alt="Série" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1502849398048-856927bfc11f?auto=format&fit=crop&w=500&q=60" alt="Série" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1489599845296-0ce9c2c1a167?auto=format&fit=crop&w=500&q=60" alt="Série" />
+            </div>
+        </section>
+
+        <section class="row">
+            <h2>Recomendados para você</h2>
+            <div class="row__posters">
+                <img class="row__poster" src="https://images.unsplash.com/photo-1517602966360-0f7f4be1ff7f?auto=format&fit=crop&w=500&q=60" alt="Recomendado" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=500&q=60" alt="Recomendado" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?auto=format&fit=crop&w=500&q=60" alt="Recomendado" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1502136969935-8d41cb9f5a15?auto=format&fit=crop&w=500&q=60" alt="Recomendado" />
+                <img class="row__poster" src="https://images.unsplash.com/photo-1513149739851-50f01dfcbd7c?auto=format&fit=crop&w=500&q=60" alt="Recomendado" />
+            </div>
+        </section>
+    </main>
+</body>
+</html>
